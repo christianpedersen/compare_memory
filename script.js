@@ -19,7 +19,7 @@ let equal_result = document.getElementById('equal_result');
 let ddr4_array = ['10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20']
 let ddr4_speed_array = ['2133', '2400', '2666', '2933', '3000', '3200', '3333', '3466', '3600', '3733', '4000', '4266', '4400', '4600', '4800', '5133']
 
-let ddr5_array = ['30', '32', '34', '36', '38', '40']
+let ddr5_array = ['28', '30', '32', '34', '36', '38', '40']
 let ddr5_speed_array = ['4800', '5200', '5600', '6000', '6200', '6400', '6600', '6800', '7000', '7200', '7600', '7800', '8000']
 
 $('#memory_type_1').on('changed.bs.select', function (e, clickedIndex, isSelected, previousValue) {
