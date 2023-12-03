@@ -134,7 +134,7 @@ compare_button.addEventListener('click', function() {
             result_1.innerHTML = `<div class="alert alert-warning" role="alert">Result: <b>${formatNumber(results[1])} nanoseconds.</b><br>This option is worse than the other.</div>`;
             result_2.innerHTML = `<div class="alert alert-success" role="alert">Result: <b>${formatNumber(results[2])} nanoseconds.</b><br>This option is better than the other.</div>`;
         } else {
-            equal_result.innerHTML = `<div class="alert alert-primary" role="alert">Both options are equal.<br>Result 1: <b>${formatNumber(results[1])} nanoseconds.</b><br>Result 2: <b>${formatNumber(results[2])} nanoseconds.</b></div>`;
+            equal_result.innerHTML = `<div class="alert alert-primary" role="alert">Both options are equal.<br>Option 1: <b>${formatNumber(results[1])} nanoseconds.</b><br>Option 2: <b>${formatNumber(results[2])} nanoseconds.</b></div>`;
         }
     }
 });
